@@ -92,9 +92,16 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "ProductKit/ProductKit/ProductTool.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "ProductKit/ProductKit/ProductTool.h"
+
+  # ――― subspec ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+
+  s.subspec 'Reachability' do |ss|
+   ss.source_files  = "ProductKit/ProductKit/NewProductTool.{h,m}"
+   ss.public_header_files = "ProductKit/ProductKit/NewProductTool.h"
+  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
