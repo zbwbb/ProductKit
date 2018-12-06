@@ -102,6 +102,11 @@ Pod::Spec.new do |s|
    ss.source_files  = "ProductKit/ProductKit/Reachability/NewProductTool.{h,m}"
    ss.public_header_files = "ProductKit/ProductKit/Reachability/NewProductTool.h"
   end
+  s.subspec 'NewTool' do |ss|
+   ss.source_files  = "ProductKit/ProductKit/NewTool/NewTool.{h,m}"
+   ss.public_header_files = "ProductKit/ProductKit/NewTool/NewTool.h"
+   ss.dependency "ProductKit/ProductKit/Reachability"
+  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -16,6 +16,7 @@
 		D6BB3A0821B7C979003DAF9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB3A0721B7C979003DAF9E /* main.m */; };
 		D6BB3A1021B7CACB003DAF9E /* ProductTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB3A0F21B7CACB003DAF9E /* ProductTool.m */; };
 		D6BB3A1621B8B789003DAF9E /* NewProductTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB3A1421B8B789003DAF9E /* NewProductTool.m */; };
+		D6BB3A1C21B8BB45003DAF9E /* NewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB3A1A21B8BB45003DAF9E /* NewTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		D6BB3A0F21B7CACB003DAF9E /* ProductTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductTool.m; sourceTree = "<group>"; };
 		D6BB3A1421B8B789003DAF9E /* NewProductTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewProductTool.m; path = Reachability/NewProductTool.m; sourceTree = "<group>"; };
 		D6BB3A1521B8B789003DAF9E /* NewProductTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewProductTool.h; path = Reachability/NewProductTool.h; sourceTree = "<group>"; };
+		D6BB3A1A21B8BB45003DAF9E /* NewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewTool.m; path = NewTool/NewTool.m; sourceTree = "<group>"; };
+		D6BB3A1B21B8BB45003DAF9E /* NewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewTool.h; path = NewTool/NewTool.h; sourceTree = "<group>"; };
 		E6276E182153E933B3817F13 /* Pods-ProductKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProductKit/Pods-ProductKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +99,8 @@
 				D6BB3A0F21B7CACB003DAF9E /* ProductTool.m */,
 				D6BB3A1521B8B789003DAF9E /* NewProductTool.h */,
 				D6BB3A1421B8B789003DAF9E /* NewProductTool.m */,
+				D6BB3A1B21B8BB45003DAF9E /* NewTool.h */,
+				D6BB3A1A21B8BB45003DAF9E /* NewTool.m */,
 				D6BB39FE21B7C978003DAF9E /* Main.storyboard */,
 				D6BB3A0121B7C979003DAF9E /* Assets.xcassets */,
 				D6BB3A0321B7C979003DAF9E /* LaunchScreen.storyboard */,
@@ -201,6 +206,7 @@
 				D6BB3A1621B8B789003DAF9E /* NewProductTool.m in Sources */,
 				D6BB3A0821B7C979003DAF9E /* main.m in Sources */,
 				D6BB39FA21B7C978003DAF9E /* AppDelegate.m in Sources */,
+				D6BB3A1C21B8BB45003DAF9E /* NewTool.m in Sources */,
 				D6BB3A1021B7CACB003DAF9E /* ProductTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
