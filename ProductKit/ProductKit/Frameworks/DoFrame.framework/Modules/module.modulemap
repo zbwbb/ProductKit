@@ -1,0 +1,6 @@
+framework module DoFrame {
+  umbrella header "DoFrame.h"
+
+  export *
+  module * { export * }
+}
